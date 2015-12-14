@@ -13,6 +13,7 @@
 		4F2A03751C1E920E002CE626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03731C1E920E002CE626 /* Main.storyboard */; };
 		4F2A03771C1E920E002CE626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03761C1E920E002CE626 /* Assets.xcassets */; };
 		4F2A037A1C1E920E002CE626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03781C1E920E002CE626 /* LaunchScreen.storyboard */; };
+		4F2A03841C1E9E69002CE626 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4F2A03761C1E920E002CE626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2A03791C1E920E002CE626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F2A037B1C1E920E002CE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2A03821C1E9E69002CE626 /* WYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseViewController.h; sourceTree = "<group>"; };
+		4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4F2A03691C1E920E002CE626 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				4F2A03811C1E9E50002CE626 /* Base */,
 				4F2A036D1C1E920E002CE626 /* AppDelegate.h */,
 				4F2A036E1C1E920E002CE626 /* AppDelegate.m */,
 				4F2A03701C1E920E002CE626 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4F2A036B1C1E920E002CE626 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F2A03811C1E9E50002CE626 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A03821C1E9E69002CE626 /* WYBaseViewController.h */,
+				4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				4F2A036C1C1E920E002CE626 /* main.m in Sources */,
+				4F2A03841C1E9E69002CE626 /* WYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
