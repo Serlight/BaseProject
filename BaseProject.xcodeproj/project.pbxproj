@@ -15,7 +15,7 @@
 		4F2A03751C1E920E002CE626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03731C1E920E002CE626 /* Main.storyboard */; };
 		4F2A03771C1E920E002CE626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03761C1E920E002CE626 /* Assets.xcassets */; };
 		4F2A037A1C1E920E002CE626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03781C1E920E002CE626 /* LaunchScreen.storyboard */; };
-		4F2A03841C1E9E69002CE626 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */; };
+		4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */; };
 		AAEBD84679C2156380391B4A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2943AB7CF4F7B18EFC70F512 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,8 @@
 		4F2A03761C1E920E002CE626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2A03791C1E920E002CE626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F2A037B1C1E920E002CE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F2A03821C1E9E69002CE626 /* WYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseViewController.h; sourceTree = "<group>"; };
-		4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseViewController.m; sourceTree = "<group>"; };
+		4F2A03851C1FEA00002CE626 /* WYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseViewController.h; sourceTree = "<group>"; };
+		4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseViewController.m; sourceTree = "<group>"; };
 		959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,8 +119,8 @@
 		4F2A03811C1E9E50002CE626 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4F2A03821C1E9E69002CE626 /* WYBaseViewController.h */,
-				4F2A03831C1E9E69002CE626 /* WYBaseViewController.m */,
+				4F2A03851C1FEA00002CE626 /* WYBaseViewController.h */,
+				4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
+				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
 				4F2A036C1C1E920E002CE626 /* main.m in Sources */,
-				4F2A03841C1E9E69002CE626 /* WYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

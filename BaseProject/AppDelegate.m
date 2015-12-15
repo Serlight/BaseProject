@@ -21,20 +21,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [JPEngine startEngine];
     
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://192.168.4.144/demo.js"]];
-    request.HTTPMethod = @"POST";
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8000/demo.js"]];
+    request.HTTPMethod = @"GET";
     
-    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue currentQueue] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
-        if(data) {
-            NSString *str = [[NSString alloc]initWithData:data encoding:4];
-            NSLog(@"str = %@",str);
-            [[NSFileManager defaultManager] createFileAtPath:DEMOTEXTPATH contents:data attributes:nil];
-        }
-    }];
-    
+    NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request
+                                    completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                                        if(data) {
+                                            NSString *str = [[NSString alloc]initWithData:data encoding:4];
+                                            NSLog(@"str = %@",str);
+                                            [[NSFileManager defaultManager] createFileAtPath:DEMOTEXTPATH contents:data attributes:nil];
+                                        }
+                                    }];
+    [task resume];
     if([[NSFileManager defaultManager] fileExistsAtPath:DEMOTEXTPATH]) {
         [JPEngine evaluateScriptWithPath:DEMOTEXTPATH];
-        NSLog(@"~~~~~~~%@",[JPEngine context]);
     }
     return YES;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "WYBaseViewController.h"
+#import "AppDelegate.h"
 
 @interface WYBaseViewController ()
 
@@ -16,22 +17,54 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    AppDelegate *app = [UIApplication sharedApplication].delegate;
+    self.rootViewController = (UIViewController *)app.window.rootViewController;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
 }
-*/
+
+- (UIViewController *)getCurrentRootViewController {
+    return nil;
+}
+
+- (void)cancelLoginJumpToViewController:(CompletedBlock)completedBlock {
+    
+}
+
+- (void)showHudOnView:(UIView *)view message:(NSString *)message {
+    
+}
+
+- (void)showHudOnWindow:(UIWindow *)window message:(NSString *)message {
+    
+}
+
+- (void)showInfoWithStatus:(NSString *)info {
+    
+}
+
+- (void)showSuccessWithStatus:(NSString *)info {
+    
+}
+
+- (void)showErrorWithStatus:(NSString *)info {
+    
+}
+
+- (void)addCloseButtonToNavigationBar {
+    
+}
+
+- (void)addCustomeBackButton {
+    
+}
+
+
 
 @end

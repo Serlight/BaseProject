@@ -20,7 +20,7 @@ typedef void(^CompletedBlock)();
 //当取消登陆的时候跳转到指定的页面
 - (void)cancelLoginJumpToViewController:(CompletedBlock)completedBlock;
 
-//显示hud在
+//显示hud
 - (void)showHudOnView:(UIView *)view message:(NSString *)message;
 
 - (void)showHudOnWindow:(UIWindow *)window message:(NSString *)message;
@@ -30,5 +30,11 @@ typedef void(^CompletedBlock)();
 - (void)showSuccessWithStatus:(NSString *)info;
 
 - (void)showErrorWithStatus:(NSString *)info;
+
+//close view controller
+- (void)addCloseButtonToNavigationBar;
+
+//add custome background button
+- (void)addCustomeBackButton;
 
 @end
