@@ -2,11 +2,38 @@ PODS:
   - JSPatch (0.1.5):
     - JSPatch/Core (= 0.1.5)
   - JSPatch/Core (0.1.5)
+  - Nimbus/AttributedLabel (1.3.0):
+    - Nimbus/Core
+  - Nimbus/Collections (1.3.0):
+    - Nimbus/Core
+  - Nimbus/Core (1.3.0)
+  - Nimbus/Models (1.3.0):
+    - Nimbus/Core
+  - ReactiveCocoa (4.0.4-alpha-4):
+    - ReactiveCocoa/UI (= 4.0.4-alpha-4)
+    - Result (~> 1.0)
+  - ReactiveCocoa/Core (4.0.4-alpha-4):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0)
+  - ReactiveCocoa/no-arc (4.0.4-alpha-4):
+    - Result (~> 1.0)
+  - ReactiveCocoa/UI (4.0.4-alpha-4):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0)
+  - Result (1.0.1)
 
 DEPENDENCIES:
   - JSPatch
+  - Nimbus/AttributedLabel
+  - Nimbus/Collections
+  - Nimbus/Core
+  - Nimbus/Models
+  - ReactiveCocoa (~> 4.0.4-alpha-4)
 
 SPEC CHECKSUMS:
   JSPatch: 405b5f5990643e6717dd6715ac60d6a2b582a6ba
+  Nimbus: e7f33bc6d6cb4fe5ea0aee0c7e0883696123422c
+  ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
+  Result: caef80340451e1f07492fa1e89117f83613bce24
 
 COCOAPODS: 0.39.0

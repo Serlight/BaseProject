@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */; };
 		02C034EE1C1EA69800373BF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */; };
+		0870EDE177E6EB354F3DF15D /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F76A907883871047E2AC0B /* Pods_BaseProject.framework */; };
 		4F2A036C1C1E920E002CE626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A036B1C1E920E002CE626 /* main.m */; };
 		4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A036E1C1E920E002CE626 /* AppDelegate.m */; };
 		4F2A03721C1E920E002CE626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03711C1E920E002CE626 /* ViewController.m */; };
@@ -16,14 +17,17 @@
 		4F2A03771C1E920E002CE626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03761C1E920E002CE626 /* Assets.xcassets */; };
 		4F2A037A1C1E920E002CE626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A03781C1E920E002CE626 /* LaunchScreen.storyboard */; };
 		4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */; };
-		AAEBD84679C2156380391B4A /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2943AB7CF4F7B18EFC70F512 /* libPods-BaseProject.a */; };
+		4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A038D1C201118002CE626 /* ContentTableViewCell.m */; };
+		4F2A03901C201118002CE626 /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */; };
+		4F2A03951C201360002CE626 /* NewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03941C201360002CE626 /* NewsObject.m */; };
+		4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C31C3E655D00048D89 /* ChildNewsObject.m */; };
+		4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02C034EA1C1EA5D900373BF2 /* JSFirstViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFirstViewcontroller.h; sourceTree = "<group>"; };
 		02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFirstViewcontroller.m; sourceTree = "<group>"; };
 		02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		2943AB7CF4F7B18EFC70F512 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A03671C1E920E002CE626 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A036B1C1E920E002CE626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F2A036D1C1E920E002CE626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,8 +40,18 @@
 		4F2A037B1C1E920E002CE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F2A03851C1FEA00002CE626 /* WYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseViewController.h; sourceTree = "<group>"; };
 		4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseViewController.m; sourceTree = "<group>"; };
+		4F2A038C1C201118002CE626 /* ContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewCell.h; sourceTree = "<group>"; };
+		4F2A038D1C201118002CE626 /* ContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewCell.m; sourceTree = "<group>"; };
+		4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
+		4F2A03931C201360002CE626 /* NewsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsObject.h; sourceTree = "<group>"; };
+		4F2A03941C201360002CE626 /* NewsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsObject.m; sourceTree = "<group>"; };
+		4F6801C21C3E655D00048D89 /* ChildNewsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNewsObject.h; sourceTree = "<group>"; };
+		4F6801C31C3E655D00048D89 /* ChildNewsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNewsObject.m; sourceTree = "<group>"; };
+		4F6801C61C4104A900048D89 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
 		959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		B2F76A907883871047E2AC0B /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C034EE1C1EA69800373BF2 /* JavaScriptCore.framework in Frameworks */,
-				AAEBD84679C2156380391B4A /* libPods-BaseProject.a in Frameworks */,
+				0870EDE177E6EB354F3DF15D /* Pods_BaseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */,
-				2943AB7CF4F7B18EFC70F512 /* libPods-BaseProject.a */,
+				B2F76A907883871047E2AC0B /* Pods_BaseProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +106,10 @@
 		4F2A03691C1E920E002CE626 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				4F6801C51C41045C00048D89 /* ReactiveCocoa */,
+				4F2A03911C20111E002CE626 /* Model */,
+				4F2A038A1C2010F0002CE626 /* View */,
+				4F2A03881C200C9C002CE626 /* viewController */,
 				4F2A03811C1E9E50002CE626 /* Base */,
 				4F2A036D1C1E920E002CE626 /* AppDelegate.h */,
 				4F2A036E1C1E920E002CE626 /* AppDelegate.m */,
@@ -123,6 +141,67 @@
 				4F2A03861C1FEA00002CE626 /* WYBaseViewController.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		4F2A03881C200C9C002CE626 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A03891C200CA7002CE626 /* Nimbus */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		4F2A03891C200CA7002CE626 /* Nimbus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Nimbus;
+			sourceTree = "<group>";
+		};
+		4F2A038A1C2010F0002CE626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A038B1C2010F9002CE626 /* Nimbus */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F2A038B1C2010F9002CE626 /* Nimbus */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A038C1C201118002CE626 /* ContentTableViewCell.h */,
+				4F2A038D1C201118002CE626 /* ContentTableViewCell.m */,
+				4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */,
+			);
+			name = Nimbus;
+			sourceTree = "<group>";
+		};
+		4F2A03911C20111E002CE626 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A03921C201129002CE626 /* Nimbus */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F2A03921C201129002CE626 /* Nimbus */ = {
+			isa = PBXGroup;
+			children = (
+				4F2A03931C201360002CE626 /* NewsObject.h */,
+				4F2A03941C201360002CE626 /* NewsObject.m */,
+				4F6801C21C3E655D00048D89 /* ChildNewsObject.h */,
+				4F6801C31C3E655D00048D89 /* ChildNewsObject.m */,
+			);
+			name = Nimbus;
+			sourceTree = "<group>";
+		};
+		4F6801C51C41045C00048D89 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				4F6801C61C4104A900048D89 /* ReactiveCocoaViewController.h */,
+				4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */,
+			);
+			name = ReactiveCocoa;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +267,7 @@
 				4F2A037A1C1E920E002CE626 /* LaunchScreen.storyboard in Resources */,
 				4F2A03771C1E920E002CE626 /* Assets.xcassets in Resources */,
 				4F2A03751C1E920E002CE626 /* Main.storyboard in Resources */,
+				4F2A03901C201118002CE626 /* ContentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2A03951C201360002CE626 /* NewsObject.m in Sources */,
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
+				4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
+				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,
+				4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */,
 				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
 				4F2A036C1C1E920E002CE626 /* main.m in Sources */,
 			);

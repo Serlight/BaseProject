@@ -82,3 +82,16 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-BaseProject/JSPatch.framework"
+  install_framework "Pods-BaseProject/Nimbus.framework"
+  install_framework "Pods-BaseProject/ReactiveCocoa.framework"
+  install_framework "Pods-BaseProject/Result.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-BaseProject/JSPatch.framework"
+  install_framework "Pods-BaseProject/Nimbus.framework"
+  install_framework "Pods-BaseProject/ReactiveCocoa.framework"
+  install_framework "Pods-BaseProject/Result.framework"
+fi

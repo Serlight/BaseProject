@@ -9,8 +9,9 @@
 
 #import "ViewController.h"
 #import "JSFirstViewcontroller.h"
+#import "ChildNewsObject.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate>
 
 @property (nonatomic, strong) UITableView *table;
 
@@ -26,11 +27,15 @@
     self.table = [[UITableView alloc]initWithFrame:self.view.bounds style:(UITableViewStylePlain)];
     self.table.delegate = self;
     self.table.dataSource = self;
+    self.table.tableFooterView = [[UIView alloc] init];
     [self.view addSubview:self.table];
 }
 
 - (NSArray *)datas {
-    _datas = @[@"JS LableView", @"JS TableViewController"];
+    _datas = @[@"JS LableView",
+               @"JS TableViewController",
+               @"Reactive Cocoa",
+               ];
     return _datas;
 }
 
