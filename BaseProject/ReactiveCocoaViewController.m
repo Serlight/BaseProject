@@ -7,6 +7,7 @@
 //
 
 #import "ReactiveCocoaViewController.h"
+#import <ReactiveCocoa.h>
 
 @interface ReactiveCocoaViewController ()
 
@@ -16,12 +17,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    @weakify(self);
+    
+    RAC(self.loginButton, enabled) = [RACSignal combineLatest:@[
+                                                                self.nameTextField.rac_textSignal,
+                                                                self.passwordTextField.rac_textSignal,
+//                                                                RACObserve(self, <#KEYPATH#>)
+                                                                ] reduce:^(NSString *userName, NSString *password) {
+                                                                    return @(userName.length > 0 && password.length > 0);
+                                                                }];
+    
+    [[self.loginButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(UIButton *sender) {
+        @strongify(self);
+        RACSignal *loginSignal =
+    }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)tapInLoginButton:(id)sender {
 }
+
 
 
 @end

@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, '8.0'
 # Uncomment this line if you're using Swift
-use_frameworks!
+#use_frameworks!
 
 target 'BaseProject' do
     pod 'JSPatch'
@@ -9,7 +9,8 @@ target 'BaseProject' do
     pod 'Nimbus/Collections'
     pod 'Nimbus/Models'
     pod 'Nimbus/AttributedLabel'
-    pod 'ReactiveCocoa', '~> 4.0.4-alpha-4'
+    pod 'ReactiveCocoa', '2.5'
+    pod 'WebViewJavascriptBridge'
 end
 
 post_install do |installer_representation|

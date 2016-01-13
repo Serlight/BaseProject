@@ -10,8 +10,11 @@
 #import "ViewController.h"
 #import "JSFirstViewcontroller.h"
 #import "ChildNewsObject.h"
+#import "ReactiveCocoaViewController.h"
 
-@interface ViewController ()<UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate>
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate> {
+    UIStoryboard *_mainStoryBoard;
+}
 
 @property (nonatomic, strong) UITableView *table;
 
@@ -23,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    _mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     self.table = [[UITableView alloc]initWithFrame:self.view.bounds style:(UITableViewStylePlain)];
     self.table.delegate = self;
     self.table.dataSource = self;
@@ -58,8 +61,12 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (indexPath.row == 1) {
         [self gotoJSViewController];
+    } else if (indexPath.row == 2) {
+        ReactiveCocoaViewController *reactiveVC = [_mainStoryBoard instantiateViewControllerWithIdentifier:@"ReactiveCocoaViewController"];
+        [self.navigationController pushViewController:reactiveVC animated:YES];
     }
 }
+
 
 - (void)gotoJSViewController {
     

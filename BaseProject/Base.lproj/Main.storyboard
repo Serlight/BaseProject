@@ -43,7 +43,7 @@
         <!--Reactive Cocoa View Controller-->
         <scene sceneID="iAH-n7-p5h">
             <objects>
-                <viewController id="8ef-io-pZQ" customClass="ReactiveCocoaViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReactiveCocoaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8ef-io-pZQ" customClass="ReactiveCocoaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wyl-K6-etU"/>
                         <viewControllerLayoutGuide type="bottom" id="oRs-bC-3lh"/>
@@ -61,15 +61,41 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oNE-8N-nHB">
+                                <rect key="frame" x="20" y="116" width="100" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="YXs-qQ-844"/>
+                                    <constraint firstAttribute="width" constant="100" id="ay2-Fq-Icg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QN-bj-lDq">
+                                <rect key="frame" x="260" y="285" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="ED9-Me-xbo"/>
+                                    <constraint firstAttribute="height" constant="30" id="Ph4-kU-M6I"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="tapInLoginButton:" destination="8ef-io-pZQ" eventType="touchUpInside" id="BrT-iH-wb4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4QN-bj-lDq" firstAttribute="centerY" secondItem="lAy-qt-A6f" secondAttribute="centerY" id="0nd-zP-ebZ"/>
                             <constraint firstItem="exe-My-XEE" firstAttribute="leading" secondItem="lAy-qt-A6f" secondAttribute="leading" constant="20" id="McW-7j-J9W"/>
+                            <constraint firstItem="oNE-8N-nHB" firstAttribute="top" secondItem="exe-My-XEE" secondAttribute="bottom" constant="32" id="NNv-8f-Bew"/>
+                            <constraint firstItem="4QN-bj-lDq" firstAttribute="centerX" secondItem="lAy-qt-A6f" secondAttribute="centerX" id="h3R-1r-yJF"/>
                             <constraint firstItem="exe-My-XEE" firstAttribute="top" secondItem="Wyl-K6-etU" secondAttribute="bottom" constant="20" id="kod-DB-5kf"/>
+                            <constraint firstItem="oNE-8N-nHB" firstAttribute="leading" secondItem="lAy-qt-A6f" secondAttribute="leading" constant="20" id="mby-0n-afd"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="4QN-bj-lDq" id="mae-aS-j02"/>
                         <outlet property="nameTextField" destination="exe-My-XEE" id="7cV-of-Q7z"/>
+                        <outlet property="passwordTextField" destination="oNE-8N-nHB" id="w06-Rn-jqe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vdd-gA-R6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
