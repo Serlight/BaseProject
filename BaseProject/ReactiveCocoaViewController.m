@@ -30,7 +30,6 @@
     
     [[self.loginButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(UIButton *sender) {
         @strongify(self);
-        RACSignal *loginSignal =
     }];
 }
 
