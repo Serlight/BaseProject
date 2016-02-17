@@ -24,6 +24,7 @@
 		4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F994E621C43E56900270AE4 /* BaseWebViewController.m */; };
 		4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */; };
 		4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */; };
+		4FB8F6301C61AA1B00714953 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */; };
 		851F27EB1AA026893D6618DE /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6720D510FAF2A36E2DE648 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		4FB8F6291C5EF23D00714953 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		4FB8F62E1C61AA1B00714953 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +169,8 @@
 			children = (
 				4FB8F6291C5EF23D00714953 /* TestTableViewController.h */,
 				4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */,
+				4FB8F62E1C61AA1B00714953 /* BaseTableViewController.h */,
+				4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */,
 			);
 			name = Nimbus;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
 				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,
+				4FB8F6301C61AA1B00714953 /* BaseTableViewController.m in Sources */,
 				4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */,
 				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
 				4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */,

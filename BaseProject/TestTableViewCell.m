@@ -8,7 +8,6 @@
 
 #import "TestTableViewCell.h"
 #import <NimbusModels.h>
-#import <RpcProtocols/BXInsureProduct.h>
 
 @interface TestTableViewCellUserInfo ()
 @property(nonatomic, copy) NSString *code;
@@ -54,8 +53,8 @@
 - (void)setProduct:(BXInsureProduct *)product
 {
     _product = product;
-    self.code = [product getCode];
-    self.adsStr = [product getAdsStr];
+//    self.code = [product getCode];
+//    self.adsStr = [product getAdsStr];
 }
 
 @end

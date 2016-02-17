@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol NICell;
+@protocol NINibCellObject;
 @class BXInsureProduct;
 @class NICellObject;
 
@@ -19,7 +20,7 @@
 
 @end
 
-@interface TestTableViewCell : UITableViewCell<NICell>
+@interface TestTableViewCell : UITableViewCell<NINibCellObject>
 
 @property(nonatomic, strong) TestTableViewCellUserInfo *info;
 

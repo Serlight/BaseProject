@@ -8,7 +8,6 @@
 
 #import "TestTableViewController.h"
 #import "TestTableViewCell.h"
-#import <RpcProtocols/BXInsureProduct.h>
 #import <NimbusModels.h>
 
 @interface TestTableViewController ()
