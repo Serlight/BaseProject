@@ -7,22 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Nimbus/NICellFactory.h>
 
 @protocol NICell;
 @protocol NINibCellObject;
-@class BXInsureProduct;
 @class NICellObject;
 
-@interface TestTableViewCellUserInfo : NSObject
+@interface User: NSObject
 
-@property(nonatomic, strong) BXInsureProduct *product;
+@property(nonatomic, copy) NSString *name;
+@property(nonatomic, assign) NSInteger age;
 
+- (id)initWithName:(NSString *)name age:(NSInteger)age;
 
 @end
 
-@interface TestTableViewCell : UITableViewCell<NINibCellObject>
+@interface TestTableViewCellUserInfo : NSObject
 
-@property(nonatomic, strong) TestTableViewCellUserInfo *info;
+@property(nonatomic, strong) User *user;
+
+@end
+
+@interface TestTableViewCell : UITableViewCell<NICell>
+
+@property (nonatomic, strong)UILabel *contentLabel;
+
+@property(nonatomic, strong) User *info;
 
 + (NICellObject *)createObject:(id)delegate userInfo:(id)userInfo;
 

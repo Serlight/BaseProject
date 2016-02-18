@@ -18,24 +18,30 @@
 @implementation TestTableViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        [self setupViews];
+    }
     
-    // Configure the view for the selected state
+    return self;
+}
+
+- (void)setupViews {
+    _contentLabel = [[UILabel alloc] initWithFrame:self.contentView.frame];
+    [self.contentView addSubview:_contentLabel];
+    _contentLabel.backgroundColor = [UIColor redColor];
 }
 
 - (BOOL)shouldUpdateCellWithObject:(id)object {
     NICellObject *obj = (NICellObject *)object;
-    self.info = (TestTableViewCellUserInfo *)obj.userInfo;
-    
+    self.info = (User *)obj.userInfo;
+    self.contentLabel.text = self.info.name;
     return YES;
 }
 
-+ (CGFloat)heightForObject:(id)object atIndexPath:(NSIndexPath *)indexPath tableView:(UITableView *)tableView
-{
++ (CGFloat)heightForObject:(id)object atIndexPath:(NSIndexPath *)indexPath tableView:(UITableView *)tableView {
     return 0;
 }
 
@@ -47,14 +53,23 @@
 
 @end
 
+@implementation User
+
+- (id)initWithName:(NSString *)name age:(NSInteger)age {
+    if (self = [[User alloc] init]) {
+        _name = name;
+        _age = age;
+    }
+    
+    return self;
+}
+
+@end
+
 @implementation TestTableViewCellUserInfo
 
-
-- (void)setProduct:(BXInsureProduct *)product
-{
-    _product = product;
-//    self.code = [product getCode];
-//    self.adsStr = [product getAdsStr];
+- (void)setUser:(User *)user {
+    _user = user;
 }
 
 @end

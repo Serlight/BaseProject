@@ -21,10 +21,11 @@
 		4F2A03951C201360002CE626 /* NewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03941C201360002CE626 /* NewsObject.m */; };
 		4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C31C3E655D00048D89 /* ChildNewsObject.m */; };
 		4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */; };
+		4F72C6711C75BDB10016A5F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C6701C75BDB10016A5F3 /* DetailViewController.m */; };
+		4F72C6741C75E6B20016A5F3 /* BXSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C6731C75E6B20016A5F3 /* BXSBaseTableViewCell.m */; };
 		4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F994E621C43E56900270AE4 /* BaseWebViewController.m */; };
 		4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */; };
 		4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */; };
-		4FB8F6301C61AA1B00714953 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */; };
 		851F27EB1AA026893D6618DE /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6720D510FAF2A36E2DE648 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -54,14 +55,16 @@
 		4F6801C31C3E655D00048D89 /* ChildNewsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNewsObject.m; sourceTree = "<group>"; };
 		4F6801C61C4104A900048D89 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
 		4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		4F72C66F1C75BDB10016A5F3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4F72C6701C75BDB10016A5F3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4F72C6721C75E6B20016A5F3 /* BXSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXSBaseTableViewCell.h; sourceTree = "<group>"; };
+		4F72C6731C75E6B20016A5F3 /* BXSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXSBaseTableViewCell.m; sourceTree = "<group>"; };
 		4F994E611C43E56900270AE4 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
 		4F994E621C43E56900270AE4 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
 		4FB8F6261C5EF1F400714953 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		4FB8F6291C5EF23D00714953 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
-		4FB8F62E1C61AA1B00714953 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
-		4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,8 +172,8 @@
 			children = (
 				4FB8F6291C5EF23D00714953 /* TestTableViewController.h */,
 				4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */,
-				4FB8F62E1C61AA1B00714953 /* BaseTableViewController.h */,
-				4FB8F62F1C61AA1B00714953 /* BaseTableViewController.m */,
+				4F72C66F1C75BDB10016A5F3 /* DetailViewController.h */,
+				4F72C6701C75BDB10016A5F3 /* DetailViewController.m */,
 			);
 			name = Nimbus;
 			sourceTree = "<group>";
@@ -191,6 +194,8 @@
 				4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */,
 				4FB8F6261C5EF1F400714953 /* TestTableViewCell.h */,
 				4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */,
+				4F72C6721C75E6B20016A5F3 /* BXSBaseTableViewCell.h */,
+				4F72C6731C75E6B20016A5F3 /* BXSBaseTableViewCell.m */,
 			);
 			name = Nimbus;
 			sourceTree = "<group>";
@@ -358,12 +363,13 @@
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
 				4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */,
 				4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */,
+				4F72C6741C75E6B20016A5F3 /* BXSBaseTableViewCell.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
 				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,
-				4FB8F6301C61AA1B00714953 /* BaseTableViewController.m in Sources */,
 				4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */,
+				4F72C6711C75BDB10016A5F3 /* DetailViewController.m in Sources */,
 				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
 				4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */,
 				4F2A036C1C1E920E002CE626 /* main.m in Sources */,
