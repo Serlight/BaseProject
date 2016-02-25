@@ -42,7 +42,7 @@
 }
 
 + (CGFloat)heightForObject:(id)object atIndexPath:(NSIndexPath *)indexPath tableView:(UITableView *)tableView {
-    return 0;
+    return 100;
 }
 
 + (NICellObject *)createObject:(id)delegate userInfo:(id)userInfo

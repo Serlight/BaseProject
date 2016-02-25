@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */; };
 		02C034EE1C1EA69800373BF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */; };
+		4F20E0381C7C3BA800DAAD7E /* NimbusCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E0371C7C3BA800DAAD7E /* NimbusCollectionViewController.m */; };
+		4F20E0481C7C93CB00DAAD7E /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E0471C7C93CB00DAAD7E /* TestCollectionViewController.m */; };
+		4F20E04C1C7D50BB00DAAD7E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E04A1C7D50BB00DAAD7E /* CollectionViewCell.m */; };
+		4F20E04D1C7D50BB00DAAD7E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F20E04B1C7D50BB00DAAD7E /* CollectionViewCell.xib */; };
+		4F20E0511C7D54DB00DAAD7E /* CollectionHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E04F1C7D54DB00DAAD7E /* CollectionHeaderReusableView.m */; };
+		4F20E0521C7D54DB00DAAD7E /* CollectionHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F20E0501C7D54DB00DAAD7E /* CollectionHeaderReusableView.xib */; };
+		4F20E0561C7D572200DAAD7E /* CollectionFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E0541C7D572200DAAD7E /* CollectionFooterReusableView.m */; };
+		4F20E0571C7D572200DAAD7E /* CollectionFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F20E0551C7D572200DAAD7E /* CollectionFooterReusableView.xib */; };
 		4F2A036C1C1E920E002CE626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A036B1C1E920E002CE626 /* main.m */; };
 		4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A036E1C1E920E002CE626 /* AppDelegate.m */; };
 		4F2A03721C1E920E002CE626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03711C1E920E002CE626 /* ViewController.m */; };
@@ -34,6 +42,19 @@
 		02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFirstViewcontroller.m; sourceTree = "<group>"; };
 		02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		1E6720D510FAF2A36E2DE648 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F20E0361C7C3BA800DAAD7E /* NimbusCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusCollectionViewController.h; sourceTree = "<group>"; };
+		4F20E0371C7C3BA800DAAD7E /* NimbusCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NimbusCollectionViewController.m; sourceTree = "<group>"; };
+		4F20E0461C7C93CB00DAAD7E /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		4F20E0471C7C93CB00DAAD7E /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		4F20E0491C7D50BB00DAAD7E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		4F20E04A1C7D50BB00DAAD7E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		4F20E04B1C7D50BB00DAAD7E /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		4F20E04E1C7D54DB00DAAD7E /* CollectionHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderReusableView.h; sourceTree = "<group>"; };
+		4F20E04F1C7D54DB00DAAD7E /* CollectionHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderReusableView.m; sourceTree = "<group>"; };
+		4F20E0501C7D54DB00DAAD7E /* CollectionHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderReusableView.xib; sourceTree = "<group>"; };
+		4F20E0531C7D572200DAAD7E /* CollectionFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionFooterReusableView.h; sourceTree = "<group>"; };
+		4F20E0541C7D572200DAAD7E /* CollectionFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionFooterReusableView.m; sourceTree = "<group>"; };
+		4F20E0551C7D572200DAAD7E /* CollectionFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionFooterReusableView.xib; sourceTree = "<group>"; };
 		4F2A03671C1E920E002CE626 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2A036B1C1E920E002CE626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F2A036D1C1E920E002CE626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +121,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4F20E0421C7C938900DAAD7E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4F20E0461C7C93CB00DAAD7E /* TestCollectionViewController.h */,
+				4F20E0471C7C93CB00DAAD7E /* TestCollectionViewController.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
 		4F2A035E1C1E920E002CE626 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +192,7 @@
 		4F2A03881C200C9C002CE626 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				4F20E0421C7C938900DAAD7E /* CollectionView */,
 				4F2A03891C200CA7002CE626 /* Nimbus */,
 			);
 			name = viewController;
@@ -174,6 +205,8 @@
 				4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */,
 				4F72C66F1C75BDB10016A5F3 /* DetailViewController.h */,
 				4F72C6701C75BDB10016A5F3 /* DetailViewController.m */,
+				4F20E0361C7C3BA800DAAD7E /* NimbusCollectionViewController.h */,
+				4F20E0371C7C3BA800DAAD7E /* NimbusCollectionViewController.m */,
 			);
 			name = Nimbus;
 			sourceTree = "<group>";
@@ -196,6 +229,15 @@
 				4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */,
 				4F72C6721C75E6B20016A5F3 /* BXSBaseTableViewCell.h */,
 				4F72C6731C75E6B20016A5F3 /* BXSBaseTableViewCell.m */,
+				4F20E0491C7D50BB00DAAD7E /* CollectionViewCell.h */,
+				4F20E04A1C7D50BB00DAAD7E /* CollectionViewCell.m */,
+				4F20E04B1C7D50BB00DAAD7E /* CollectionViewCell.xib */,
+				4F20E04E1C7D54DB00DAAD7E /* CollectionHeaderReusableView.h */,
+				4F20E04F1C7D54DB00DAAD7E /* CollectionHeaderReusableView.m */,
+				4F20E0501C7D54DB00DAAD7E /* CollectionHeaderReusableView.xib */,
+				4F20E0531C7D572200DAAD7E /* CollectionFooterReusableView.h */,
+				4F20E0541C7D572200DAAD7E /* CollectionFooterReusableView.m */,
+				4F20E0551C7D572200DAAD7E /* CollectionFooterReusableView.xib */,
 			);
 			name = Nimbus;
 			sourceTree = "<group>";
@@ -297,10 +339,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F20E0521C7D54DB00DAAD7E /* CollectionHeaderReusableView.xib in Resources */,
+				4F20E0571C7D572200DAAD7E /* CollectionFooterReusableView.xib in Resources */,
 				4F2A037A1C1E920E002CE626 /* LaunchScreen.storyboard in Resources */,
 				4F2A03771C1E920E002CE626 /* Assets.xcassets in Resources */,
 				4F2A03751C1E920E002CE626 /* Main.storyboard in Resources */,
 				4F2A03901C201118002CE626 /* ContentTableViewCell.xib in Resources */,
+				4F20E04D1C7D50BB00DAAD7E /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,11 +412,16 @@
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
+				4F20E0511C7D54DB00DAAD7E /* CollectionHeaderReusableView.m in Sources */,
 				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,
+				4F20E04C1C7D50BB00DAAD7E /* CollectionViewCell.m in Sources */,
 				4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */,
+				4F20E0481C7C93CB00DAAD7E /* TestCollectionViewController.m in Sources */,
 				4F72C6711C75BDB10016A5F3 /* DetailViewController.m in Sources */,
 				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
+				4F20E0561C7D572200DAAD7E /* CollectionFooterReusableView.m in Sources */,
 				4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */,
+				4F20E0381C7C3BA800DAAD7E /* NimbusCollectionViewController.m in Sources */,
 				4F2A036C1C1E920E002CE626 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

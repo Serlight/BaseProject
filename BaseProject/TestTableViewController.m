@@ -13,7 +13,7 @@
 #import <NITableViewActions.h>
 #import "DetailViewController.h"
 
-@interface TestTableViewController () <NITableViewModelDelegate>
+@interface TestTableViewController () <NITableViewModelDelegate, UITableViewDelegate>
 
 @property (nonatomic, strong)NIMutableTableViewModel *tableViewModel;
 @property (nonatomic, strong)NITableViewActions *tableViewActions;
@@ -30,6 +30,7 @@
     [self.view addSubview:self.tableView];
     _dataArray = [NSArray array];
     _tableViewActions = [[NITableViewActions alloc] initWithTarget:self];
+    [_tableViewActions forwardingTo:self];
     _dataArray = @[@"first section",
                    [self createTestTableViewInfo:[[User alloc] initWithName:@"HCC" age:29]],
                    [self createTestTableViewInfo:[[User alloc] initWithName:@"CG" age:24]]];
@@ -69,6 +70,10 @@
 - (void)tapInCGCell:(id)object {
     
     NSLog(@"Enter cell CG");
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return [TestTableViewCell heightForObject:_dataArray[indexPath.row] atIndexPath:indexPath tableView:tableView];
 }
 
 - (UITableViewCell *)tableViewModel:(NITableViewModel *)tableViewModel cellForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath withObject:(id)object {
