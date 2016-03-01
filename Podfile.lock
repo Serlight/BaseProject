@@ -16,7 +16,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - WebViewJavascriptBridge (4.1.5)
+  - WebViewJavascriptBridge (5.0.5)
 
 DEPENDENCIES:
   - JSPatch
@@ -31,6 +31,6 @@ SPEC CHECKSUMS:
   JSPatch: 405b5f5990643e6717dd6715ac60d6a2b582a6ba
   Nimbus: e7f33bc6d6cb4fe5ea0aee0c7e0883696123422c
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  WebViewJavascriptBridge: e7b6669bebfc4f151daa0fdec3c8c24c8dc3a24e
+  WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
 
 COCOAPODS: 0.39.0

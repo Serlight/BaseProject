@@ -59,11 +59,9 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "JSPatch/JSPatch/JSPatch.js"
-  install_resource "WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "JSPatch/JSPatch/JSPatch.js"
-  install_resource "WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
