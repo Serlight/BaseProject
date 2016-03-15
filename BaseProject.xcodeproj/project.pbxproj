@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */; };
 		02C034EE1C1EA69800373BF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */; };
 		4F20E0381C7C3BA800DAAD7E /* NimbusCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E0371C7C3BA800DAAD7E /* NimbusCollectionViewController.m */; };
 		4F20E0481C7C93CB00DAAD7E /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E0471C7C93CB00DAAD7E /* TestCollectionViewController.m */; };
@@ -38,8 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02C034EA1C1EA5D900373BF2 /* JSFirstViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFirstViewcontroller.h; sourceTree = "<group>"; };
-		02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFirstViewcontroller.m; sourceTree = "<group>"; };
 		02C034ED1C1EA69800373BF2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		1E6720D510FAF2A36E2DE648 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F20E0361C7C3BA800DAAD7E /* NimbusCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NimbusCollectionViewController.h; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 				4F2A036E1C1E920E002CE626 /* AppDelegate.m */,
 				4F2A03701C1E920E002CE626 /* ViewController.h */,
 				4F2A03711C1E920E002CE626 /* ViewController.m */,
-				02C034EA1C1EA5D900373BF2 /* JSFirstViewcontroller.h */,
-				02C034EB1C1EA5D900373BF2 /* JSFirstViewcontroller.m */,
 				4F2A03731C1E920E002CE626 /* Main.storyboard */,
 				4F2A03761C1E920E002CE626 /* Assets.xcassets */,
 				4F2A03781C1E920E002CE626 /* LaunchScreen.storyboard */,
@@ -410,7 +405,6 @@
 				4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */,
 				4F72C6741C75E6B20016A5F3 /* BXSBaseTableViewCell.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
-				02C034EC1C1EA5D900373BF2 /* JSFirstViewcontroller.m in Sources */,
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
 				4F20E0511C7D54DB00DAAD7E /* CollectionHeaderReusableView.m in Sources */,
 				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,

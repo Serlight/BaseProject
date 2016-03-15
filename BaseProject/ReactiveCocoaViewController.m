@@ -18,19 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    @weakify(self);
-    
-    RAC(self.loginButton, enabled) = [RACSignal combineLatest:@[
-                                                                self.nameTextField.rac_textSignal,
-                                                                self.passwordTextField.rac_textSignal,
-//                                                                RACObserve(self, <#KEYPATH#>)
-                                                                ] reduce:^(NSString *userName, NSString *password) {
-                                                                    return @(userName.length > 0 && password.length > 0);
-                                                                }];
-    
-    [[self.loginButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(UIButton *sender) {
-        @strongify(self);
-    }];
+    [[RACSignal combineLatest:@[self.nameTextField.rac_textSignal, self.passwordTextField.rac_textSignal]
+                      reduce:^(NSString *nameText, NSString *password){
+                          return @(nameText.length > 3 && password.length > 6);
+                      }] setKeyPath:@"enabled" onObject:self.loginButton];
 }
 
 - (IBAction)tapInLoginButton:(id)sender {

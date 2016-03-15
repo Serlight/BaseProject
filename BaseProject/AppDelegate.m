@@ -19,23 +19,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [JPEngine startEngine];
-    
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8000/demo.js"]];
-    request.HTTPMethod = @"GET";
-    
-    NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request
-                                    completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-                                        if(data) {
-                                            NSString *str = [[NSString alloc]initWithData:data encoding:4];
-                                            NSLog(@"str = %@",str);
-                                            [[NSFileManager defaultManager] createFileAtPath:DEMOTEXTPATH contents:data attributes:nil];
-                                        }
-                                    }];
-    [task resume];
-    if([[NSFileManager defaultManager] fileExistsAtPath:DEMOTEXTPATH]) {
-        [JPEngine evaluateScriptWithPath:DEMOTEXTPATH];
-    }
+//    [JPEngine startEngine];
+//    
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8000/demo.js"]];
+//    request.HTTPMethod = @"GET";
+//    
+//    NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request
+//                                    completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//                                        if(data) {
+//                                            NSString *str = [[NSString alloc]initWithData:data encoding:4];
+//                                            NSLog(@"str = %@",str);
+//                                            [[NSFileManager defaultManager] createFileAtPath:DEMOTEXTPATH contents:data attributes:nil];
+//                                        }
+//                                    }];
+//    [task resume];
+//    if([[NSFileManager defaultManager] fileExistsAtPath:DEMOTEXTPATH]) {
+//        [JPEngine evaluateScriptWithPath:DEMOTEXTPATH];
+//    }
     return YES;
 }
 
