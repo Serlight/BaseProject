@@ -187,6 +187,7 @@
 		4F2A03881C200C9C002CE626 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				4F343DBA1C9C03DC00AD8CB2 /* 照片 */,
 				4F20E0421C7C938900DAAD7E /* CollectionView */,
 				4F2A03891C200CA7002CE626 /* Nimbus */,
 			);
@@ -254,6 +255,13 @@
 				4F6801C31C3E655D00048D89 /* ChildNewsObject.m */,
 			);
 			name = Nimbus;
+			sourceTree = "<group>";
+		};
+		4F343DBA1C9C03DC00AD8CB2 /* 照片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "照片";
 			sourceTree = "<group>";
 		};
 		4F6801C51C41045C00048D89 /* ReactiveCocoa */ = {
