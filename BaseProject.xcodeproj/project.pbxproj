@@ -26,6 +26,7 @@
 		4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A038D1C201118002CE626 /* ContentTableViewCell.m */; };
 		4F2A03901C201118002CE626 /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */; };
 		4F2A03951C201360002CE626 /* NewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A03941C201360002CE626 /* NewsObject.m */; };
+		4F37916C1CA906BC00D97689 /* MWPhototViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F37916B1CA906BC00D97689 /* MWPhototViewController.m */; };
 		4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C31C3E655D00048D89 /* ChildNewsObject.m */; };
 		4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6801C71C4104A900048D89 /* ReactiveCocoaViewController.m */; };
 		4F72C6711C75BDB10016A5F3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F72C6701C75BDB10016A5F3 /* DetailViewController.m */; };
@@ -69,6 +70,8 @@
 		4F2A038E1C201118002CE626 /* ContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
 		4F2A03931C201360002CE626 /* NewsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsObject.h; sourceTree = "<group>"; };
 		4F2A03941C201360002CE626 /* NewsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsObject.m; sourceTree = "<group>"; };
+		4F37916A1CA906BC00D97689 /* MWPhototViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhototViewController.h; sourceTree = "<group>"; };
+		4F37916B1CA906BC00D97689 /* MWPhototViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhototViewController.m; sourceTree = "<group>"; };
 		4F6801C21C3E655D00048D89 /* ChildNewsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNewsObject.h; sourceTree = "<group>"; };
 		4F6801C31C3E655D00048D89 /* ChildNewsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNewsObject.m; sourceTree = "<group>"; };
 		4F6801C61C4104A900048D89 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 		4F2A03881C200C9C002CE626 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				4F3791691CA9069F00D97689 /* MWPhoto */,
 				4F343DBA1C9C03DC00AD8CB2 /* 照片 */,
 				4F20E0421C7C938900DAAD7E /* CollectionView */,
 				4F2A03891C200CA7002CE626 /* Nimbus */,
@@ -262,6 +266,15 @@
 			children = (
 			);
 			name = "照片";
+			sourceTree = "<group>";
+		};
+		4F3791691CA9069F00D97689 /* MWPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				4F37916A1CA906BC00D97689 /* MWPhototViewController.h */,
+				4F37916B1CA906BC00D97689 /* MWPhototViewController.m */,
+			);
+			name = MWPhoto;
 			sourceTree = "<group>";
 		};
 		4F6801C51C41045C00048D89 /* ReactiveCocoa */ = {
@@ -411,6 +424,7 @@
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
 				4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */,
 				4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */,
+				4F37916C1CA906BC00D97689 /* MWPhototViewController.m in Sources */,
 				4F72C6741C75E6B20016A5F3 /* BXSBaseTableViewCell.m in Sources */,
 				4F2A036F1C1E920E002CE626 /* AppDelegate.m in Sources */,
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
