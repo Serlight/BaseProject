@@ -11,6 +11,7 @@ target 'BaseProject' do
     pod 'Nimbus/AttributedLabel'
     pod 'ReactiveCocoa', '2.5'
     pod 'WebViewJavascriptBridge'
+    pod 'MWPhotoBrowser'
 end
 
 post_install do |installer_representation|
