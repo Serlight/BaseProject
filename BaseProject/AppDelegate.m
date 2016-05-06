@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <JSPatch/JPEngine.h>
+#import "WeiboDemoViewController.h"
+#import "AsyncTableViewController.h"
 
 #define DEMOTEXTPATH [NSString stringWithFormat:@"%@/Documents/demo.js",NSHomeDirectory()]
 
@@ -19,23 +21,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    [JPEngine startEngine];
-//    
-//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8000/demo.js"]];
-//    request.HTTPMethod = @"GET";
-//    
-//    NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithRequest:request
-//                                    completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-//                                        if(data) {
-//                                            NSString *str = [[NSString alloc]initWithData:data encoding:4];
-//                                            NSLog(@"str = %@",str);
-//                                            [[NSFileManager defaultManager] createFileAtPath:DEMOTEXTPATH contents:data attributes:nil];
-//                                        }
-//                                    }];
-//    [task resume];
-//    if([[NSFileManager defaultManager] fileExistsAtPath:DEMOTEXTPATH]) {
-//        [JPEngine evaluateScriptWithPath:DEMOTEXTPATH];
-//    }
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    AsyncTableViewController *rootVC = [AsyncTableViewController new];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -12,6 +12,7 @@ target 'BaseProject' do
     pod 'ReactiveCocoa', '2.5'
     pod 'WebViewJavascriptBridge'
     pod 'MWPhotoBrowser'
+    pod 'AsyncDisplayKit'
 end
 
 post_install do |installer_representation|

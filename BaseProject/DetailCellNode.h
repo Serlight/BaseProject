@@ -1,0 +1,19 @@
+//
+//  DetailCellNode.h
+//  BaseProject
+//
+//  Created by 何长春 on 16/4/27.
+//  Copyright © 2016年 Serlight. All rights reserved.
+//
+
+#import <ASCellNode.h>
+
+@class ASNetworkImageNode;
+
+@interface DetailCellNode : ASCellNode
+
+@property (nonatomic, assign) NSInteger row;
+@property (nonatomic, copy) NSString *imageCategory;
+@property (nonatomic, strong) ASNetworkImageNode *imageNode;
+
+@end

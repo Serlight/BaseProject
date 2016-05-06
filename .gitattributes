@@ -1,0 +1,8 @@
+AVFoundationEx.FrameWork filter=fat -crlf
+Analytics.framework filter=fat -crlf
+IMCore.framework filter=fat -crlf
+IMSDKBugly.framework filter=fat -crlf
+ImSDK.framework filter=fat -crlf
+QALSDK.framework filter=fat -crlf
+QAVSDK.framework filter=fat -crlf
+TLSSDK.framework filter=fat -crlf

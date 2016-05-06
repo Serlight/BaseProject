@@ -1,0 +1,4 @@
+[rsync]
+remote=192.168.4.148:/home/LiveSDK
+sshuser = wyios
+sshport = 22

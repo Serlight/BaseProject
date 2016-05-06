@@ -34,6 +34,13 @@
 		4F994E631C43E56900270AE4 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F994E621C43E56900270AE4 /* BaseWebViewController.m */; };
 		4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */; };
 		4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */; };
+		4FD88F701CD0A52000A68E17 /* WeiboDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88F6F1CD0A52000A68E17 /* WeiboDemoViewController.m */; };
+		4FD88F731CD0AE5C00A68E17 /* DetailASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88F721CD0AE5C00A68E17 /* DetailASViewController.m */; };
+		4FD88F761CD0AE7D00A68E17 /* DetailRootNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88F751CD0AE7D00A68E17 /* DetailRootNode.m */; };
+		4FD88F791CD0AE9B00A68E17 /* DetailCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD88F781CD0AE9B00A68E17 /* DetailCellNode.m */; };
+		4FE25AE61CD20FDE003CD1C0 /* AsyncTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE25AE51CD20FDE003CD1C0 /* AsyncTableViewController.m */; };
+		4FE25AE91CD21432003CD1C0 /* BlurbNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE25AE81CD21432003CD1C0 /* BlurbNode.m */; };
+		4FE624E81CD33ECA0092A9E7 /* KittenNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE624E71CD33ECA0092A9E7 /* KittenNode.m */; };
 		851F27EB1AA026893D6618DE /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6720D510FAF2A36E2DE648 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +93,20 @@
 		4FB8F6271C5EF1F400714953 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		4FB8F6291C5EF23D00714953 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
 		4FB8F62A1C5EF23D00714953 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		4FD88F6E1CD0A52000A68E17 /* WeiboDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboDemoViewController.h; sourceTree = "<group>"; };
+		4FD88F6F1CD0A52000A68E17 /* WeiboDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboDemoViewController.m; sourceTree = "<group>"; };
+		4FD88F711CD0AE5C00A68E17 /* DetailASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailASViewController.h; sourceTree = "<group>"; };
+		4FD88F721CD0AE5C00A68E17 /* DetailASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailASViewController.m; sourceTree = "<group>"; };
+		4FD88F741CD0AE7D00A68E17 /* DetailRootNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRootNode.h; sourceTree = "<group>"; };
+		4FD88F751CD0AE7D00A68E17 /* DetailRootNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRootNode.m; sourceTree = "<group>"; };
+		4FD88F771CD0AE9B00A68E17 /* DetailCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCellNode.h; sourceTree = "<group>"; };
+		4FD88F781CD0AE9B00A68E17 /* DetailCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCellNode.m; sourceTree = "<group>"; };
+		4FE25AE41CD20FDE003CD1C0 /* AsyncTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTableViewController.h; sourceTree = "<group>"; };
+		4FE25AE51CD20FDE003CD1C0 /* AsyncTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTableViewController.m; sourceTree = "<group>"; };
+		4FE25AE71CD21432003CD1C0 /* BlurbNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurbNode.h; sourceTree = "<group>"; };
+		4FE25AE81CD21432003CD1C0 /* BlurbNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurbNode.m; sourceTree = "<group>"; };
+		4FE624E61CD33ECA0092A9E7 /* KittenNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KittenNode.h; sourceTree = "<group>"; };
+		4FE624E71CD33ECA0092A9E7 /* KittenNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KittenNode.m; sourceTree = "<group>"; };
 		959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +172,7 @@
 		4F2A03691C1E920E002CE626 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				4FD88F6D1CD0A3EB00A68E17 /* AsyncDisplayKit */,
 				4F994E601C43E54700270AE4 /* WebView */,
 				4F6801C51C41045C00048D89 /* ReactiveCocoa */,
 				4F2A03911C20111E002CE626 /* Model */,
@@ -190,6 +212,7 @@
 		4F2A03881C200C9C002CE626 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				4FA6E6631CAD16EA0037F1EE /* AlertView */,
 				4F3791691CA9069F00D97689 /* MWPhoto */,
 				4F343DBA1C9C03DC00AD8CB2 /* 照片 */,
 				4F20E0421C7C938900DAAD7E /* CollectionView */,
@@ -295,6 +318,42 @@
 			name = WebView;
 			sourceTree = "<group>";
 		};
+		4FA6E6631CAD16EA0037F1EE /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AlertView;
+			sourceTree = "<group>";
+		};
+		4FD88F6D1CD0A3EB00A68E17 /* AsyncDisplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				4FE25AE31CD20E77003CD1C0 /* AS1 */,
+				4FD88F6E1CD0A52000A68E17 /* WeiboDemoViewController.h */,
+				4FD88F6F1CD0A52000A68E17 /* WeiboDemoViewController.m */,
+				4FD88F711CD0AE5C00A68E17 /* DetailASViewController.h */,
+				4FD88F721CD0AE5C00A68E17 /* DetailASViewController.m */,
+				4FD88F741CD0AE7D00A68E17 /* DetailRootNode.h */,
+				4FD88F751CD0AE7D00A68E17 /* DetailRootNode.m */,
+				4FD88F771CD0AE9B00A68E17 /* DetailCellNode.h */,
+				4FD88F781CD0AE9B00A68E17 /* DetailCellNode.m */,
+			);
+			name = AsyncDisplayKit;
+			sourceTree = "<group>";
+		};
+		4FE25AE31CD20E77003CD1C0 /* AS1 */ = {
+			isa = PBXGroup;
+			children = (
+				4FE25AE41CD20FDE003CD1C0 /* AsyncTableViewController.h */,
+				4FE25AE51CD20FDE003CD1C0 /* AsyncTableViewController.m */,
+				4FE25AE71CD21432003CD1C0 /* BlurbNode.h */,
+				4FE25AE81CD21432003CD1C0 /* BlurbNode.m */,
+				4FE624E61CD33ECA0092A9E7 /* KittenNode.h */,
+				4FE624E71CD33ECA0092A9E7 /* KittenNode.m */,
+			);
+			name = AS1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -329,6 +388,7 @@
 				TargetAttributes = {
 					4F2A03661C1E920E002CE626 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q93G24SHAQ;
 					};
 				};
 			};
@@ -421,8 +481,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2A03951C201360002CE626 /* NewsObject.m in Sources */,
+				4FD88F731CD0AE5C00A68E17 /* DetailASViewController.m in Sources */,
+				4FE25AE91CD21432003CD1C0 /* BlurbNode.m in Sources */,
+				4FE25AE61CD20FDE003CD1C0 /* AsyncTableViewController.m in Sources */,
 				4F2A03721C1E920E002CE626 /* ViewController.m in Sources */,
+				4FD88F701CD0A52000A68E17 /* WeiboDemoViewController.m in Sources */,
 				4F6801C81C4104A900048D89 /* ReactiveCocoaViewController.m in Sources */,
+				4FD88F791CD0AE9B00A68E17 /* DetailCellNode.m in Sources */,
 				4FB8F62B1C5EF23D00714953 /* TestTableViewController.m in Sources */,
 				4F37916C1CA906BC00D97689 /* MWPhototViewController.m in Sources */,
 				4F72C6741C75E6B20016A5F3 /* BXSBaseTableViewCell.m in Sources */,
@@ -430,8 +495,10 @@
 				4FB8F6281C5EF1F400714953 /* TestTableViewCell.m in Sources */,
 				4F20E0511C7D54DB00DAAD7E /* CollectionHeaderReusableView.m in Sources */,
 				4F6801C41C3E655D00048D89 /* ChildNewsObject.m in Sources */,
+				4FD88F761CD0AE7D00A68E17 /* DetailRootNode.m in Sources */,
 				4F20E04C1C7D50BB00DAAD7E /* CollectionViewCell.m in Sources */,
 				4F2A038F1C201118002CE626 /* ContentTableViewCell.m in Sources */,
+				4FE624E81CD33ECA0092A9E7 /* KittenNode.m in Sources */,
 				4F20E0481C7C93CB00DAAD7E /* TestCollectionViewController.m in Sources */,
 				4F72C6711C75BDB10016A5F3 /* DetailViewController.m in Sources */,
 				4F2A03871C1FEA00002CE626 /* WYBaseViewController.m in Sources */,
@@ -549,8 +616,75 @@
 			baseConfigurationReference = 959B3A793D014E5AE1B7AB13 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+				);
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"JSPatch\"",
+					"-l\"Nimbus\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"WebViewJavascriptBridge\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"Photos\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.serlight.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -561,8 +695,65 @@
 			baseConfigurationReference = A95FDD1B5D0EF43277DDF7A5 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+				);
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/JSPatch\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Nimbus\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"JSPatch\"",
+					"-l\"Nimbus\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDWebImage\"",
+					"-l\"WebViewJavascriptBridge\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"Photos\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.serlight.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
